@@ -75,7 +75,7 @@ Ola mundo!
 ```
 Editando, compilando e executando pelo Visual Code:
 
-![](../img/olamundovisualcode.png)
+![](https://raw.githubusercontent.com/profsergiocosta/lp20191/master/img/olamundovisualcode.png)
 
 
 
