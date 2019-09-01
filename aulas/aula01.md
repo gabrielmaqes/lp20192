@@ -360,11 +360,6 @@ Iremos usar nas aulas o ambiente online [repl.it](), porém em casa seria intere
 
 | Unidade | Atividade        | Pontos |
 |---------|------------------|--------|
-| 1       | Prova Escrita    | 8      |
-| 1       | Exercícios SIGAA | 2      |
-| 2       | Prova Escrita    | 6      |
-| 3       | Exercícios SIGAA | 4      |
-| 3       | Projeto final    | 7      |
 
 ***
 ### Outras referencias 
