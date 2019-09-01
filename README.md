@@ -4,7 +4,7 @@ Estudo detalhado de uma linguagem de programação. Estrutura da linguagem. Coma
 
 ## Aulas
 
-* [Aula 01](aulas/aula01)
+* [Aula 01](aulas/aula01.md)
 
 
 ## Conteúdo programático
