@@ -5,7 +5,7 @@ Estudo detalhado de uma linguagem de programação. Estrutura da linguagem. Coma
 ## Aulas
 
 * [Aula 01 - Apresentação e introdução a linguagem C](aulas/aula01.md)
-* [Aula 02 - Expressões e comandos](aulas/aula01.md)
+* [Aula 02 - Expressões e comandos](aulas/aula02.md)
 
 
 ## Conteúdo programático
