@@ -55,8 +55,11 @@
     d. sub conjunto de valores primos que está contido no vetor
     
  * Faça um programa que, dados dois vetores bidimensionais (matrizes A e B) com dimensões de no máximo 5x5 elementos, retorne:
-        a. a soma destas duas matrizes
+        
+	a. a soma destas duas matrizes
+	
         b. a soma das diagonais de cada matriz
+	
         c. a multiplicação das duas matrizes
         
 * Vamos supor que várias pedras do jogo de xadrez estão no tabuleiro. Para facilitar a indicação das peças, vamos convencionar:
@@ -68,6 +71,7 @@
 ![tabuleiro](../img/tabuleiro.png)
 
 a) Construa um programa que determine a soma total entre peões ou bispos e a quantidade de posições com ausência de peças;
+
 b) Escreva outro programa que determine qual a quantidade de cada tipo de peça no tabuleiro.
 
 * A distância entre várias cidades é dada pela tabela abaixo (em km):
@@ -76,7 +80,9 @@ b) Escreva outro programa que determine qual a quantidade de cada tipo de peça 
 
 
 a) Construa um programa que leia a tabela acima e informe ao usuário a distância entre duas cidades por ele requisitadas, até que ele entre com o código 0 para ambas as cidades;
+
 b) Elabore um programa que imprima a tabela sem repetições, isto é, se a distância entre as cidades 1 e 3 foi emitida, não é necessário emitir a distância entre 3 e 1;
+
 c) Dado um determinado percurso, imprima o total percorrido:
 Exemplo: dado o percurso 1, 2, 3, 2, 5, 1, 4, teremos:
 15 + 10 + 10 + 28 + 12 + 5 = 80 km.
@@ -88,7 +94,11 @@ Exemplo: dado o percurso 1, 2, 3, 2, 5, 1, 4, teremos:
 * Elabore um programa que, recebendo estes dados calcule e mostre:
 
     a. a quantidade de respostas ótimo;
+    
     b. a diferença percentual entre respostas bom e regular;
+    
     c. a média de idade das pessoas que responderam ruim;
+    
     d. a porcentagem de respostas péssimo e a maior idade que utilizou esta opção;
+    
     e. a diferença de idade entre a maior idade que respondeu ótimo e a maior idade que respondeu ruim.
