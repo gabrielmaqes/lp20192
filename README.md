@@ -2,6 +2,10 @@
 
 Estudo detalhado de uma linguagem de programação. Estrutura da linguagem. Comandos e declarações. Tipos e Representações de dados. Mecanismos de entrada e saída de dados. Aplicações
 
+## Monitoria
+
+* Segunda e sexta das 14:00 as 17:00, no laboratório 02, com Gilberson
+
 ## Aulas
 
 * [Apresentação e introdução a linguagem C](aulas/aula01.md)
