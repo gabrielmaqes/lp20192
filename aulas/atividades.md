@@ -64,12 +64,14 @@
 2 – cavalos	4 – bispos	6 – rainhas
 
 * O tabuleiro é o seguinte:
+
 ![tabuleiro](../img/tabuleiro.png)
 
 a) Construa um programa que determine a soma total entre peões ou bispos e a quantidade de posições com ausência de peças;
 b) Escreva outro programa que determine qual a quantidade de cada tipo de peça no tabuleiro.
 
 * A distância entre várias cidades é dada pela tabela abaixo (em km):
+
 ![tabela cidades](../img/tabela_cidades.png)
 
 
