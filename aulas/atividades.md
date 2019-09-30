@@ -1,7 +1,7 @@
 
 # Básico
 
-1. Fazer um programa para receber um número inteiro de segundos do usuário e imprimir a quantidade correspondente em horas, minutos e segundos.
+1. Fazer um programa para receber do usuário um número inteiro que represente os segundos transcorridos desde 00:00 horas de um dado dia e converta-o em horas, minutos e segundos.
 2. Fazer um programa para receber 3 valores inteiros do usuário e mostrar a sua média (que pode não ser inteira).
 
 # Estruturas condicionais
