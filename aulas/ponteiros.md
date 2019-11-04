@@ -394,19 +394,19 @@ RESPOSTA:
     pti = &i;
 ```
  Qual afirmativa é falsa?
-            a.         pti armazena o endereço de i
-            b.         *pti é igual a 10
-            c.         ao se executar *pti = 20; i passará a ter o valor 20
-            d.         ao se alterar o valor de i, *pti será modificado
-            e.         pti é igual a 10
+- a.         pti armazena o endereço de i
+- b.         *pti é igual a 10
+- c.         ao se executar *pti = 20; i passará a ter o valor 20
+- d.         ao se alterar o valor de i, *pti será modificado
+- e.         pti é igual a 10
            
 9- Se i e j são variáveis inteiras e pi e pj são ponteiros para inteiro, qual atribuição é ilegal?
 
-a.         pi = &i;
-b.         *pj = &j;
-c.         pj = &*&j;
-d.         i = *&*&j;
-e.         i = (*pi)+++*pj;
+- a.         pi = &i;
+- b.         *pj = &j;
+- c.         pj = &*&j;
+- d.         i = *&*&j;
+- e.         i = (*pi)+++*pj;
                        
 10- Na seqüência de instruções abaixo:    
 ```c
