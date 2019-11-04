@@ -11,6 +11,8 @@ Estudo detalhado de uma linguagem de programação. Estrutura da linguagem. Coma
 * [Apresentação e introdução a linguagem C](aulas/aula01.md)
 * [Expressões e comandos](aulas/aula02.md)
 * [Atividades](aulas/atividades.md)
+* [Estruturas heterôgeneas](aulas/)
+* [Ponteiros](aulas/ponteiros.md)
 
 
 ## Conteúdo programático
