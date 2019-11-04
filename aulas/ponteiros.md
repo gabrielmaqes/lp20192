@@ -8,6 +8,10 @@
 - Relação entre os operadores de acesso indireto e de endereço
 - Declaração de vetores
 - Vetores de tamanho variável
+----------
+## Slides
+
+* [Acessem aqui os slides](Ponteiros.pptx)
 
 ----------
 ## Vetores e Ponteiros
