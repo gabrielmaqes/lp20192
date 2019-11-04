@@ -378,7 +378,7 @@ RESPOSTA:
        p = &i;
        printf(“%p - %d - %d\n”, p, *p+2, 3*(*p));
     }
-    ```
+```
 8. Fazer um programa que altere o valor armazenado em uma variável através do ponteiro que aponta para a mesma, seguindo as seguintes premissas:
 - A variável numero (tipo inteiro) irá armazenar o valor 35;
 - O ponteiro se chama ptr;
@@ -392,9 +392,8 @@ RESPOSTA:
     int *pti;
     int i = 10;
     pti = &i;
-
- 
-    Qual afirmativa é falsa?
+```
+ Qual afirmativa é falsa?
             a.         pti armazena o endereço de i
             b.         *pti é igual a 10
             c.         ao se executar *pti = 20; i passará a ter o valor 20
@@ -403,11 +402,11 @@ RESPOSTA:
            
 9- Se i e j são variáveis inteiras e pi e pj são ponteiros para inteiro, qual atribuição é ilegal?
 
-                        a.         pi = &i;
-                        b.         *pj = &j;
-                        c.         pj = &*&j;
-                        d.         i = *&*&j;
-                        e.         i = (*pi)+++*pj;
+a.         pi = &i;
+b.         *pj = &j;
+c.         pj = &*&j;
+d.         i = *&*&j;
+e.         i = (*pi)+++*pj;
                        
 10- Na seqüência de instruções abaixo:    
 ```c
@@ -417,11 +416,11 @@ RESPOSTA:
     scanf("%f", pf);
 ```
  
-                                    a.         Efetuamos a leitura de f
-                                    b.         Não efetuamos a leitura de f
-                                    c.         Temos um erro de sintaxe
-                                    d.         Deveríamos estar usando &pf no scanf
-                                    e.         Nenhuma das opções anteriores
+a.         Efetuamos a leitura de f
+b.         Não efetuamos a leitura de f
+c.         Temos um erro de sintaxe
+d.         Deveríamos estar usando &pf no scanf
+e.         Nenhuma das opções anteriores
  
 11. Verifique o programa abaixo. Encontre o seu erro e corrija­-o para que escreva o numero 10 na tela.
 ```c
