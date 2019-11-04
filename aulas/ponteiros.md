@@ -16,16 +16,16 @@
 
 Considere um exemplo de um programa usado para calcular a média de dado 3 notas:
 
-
+```c
     int main () {
       float n1, n2, n3;
       scanf ("%f %f %f", &n1,&n2, &n3);
       printf ("%f",(n1+n2+n3)/3);
     }
-
+```
 Agora, considere calcular a média de dado 50 notas. Nesse caso, uso de variáveis simples pode ser impraticável ou proibitiva.
 
-
+```c
     int main () {
       // formato geral eh:
       // tipo indentificador[tamanho];
@@ -39,10 +39,10 @@ Agora, considere calcular a média de dado 50 notas. Nesse caso, uso de variáve
         printf ("%f\n", notas[i]);
       }
     }
-
+```
 É comum encontrar códigos que usam a macro “define” para controlar o tamanho e os algoritmos que processam vetores:
 
-
+```c
     #include "stdio.h"
     
     #define TAM 5
@@ -61,10 +61,10 @@ Agora, considere calcular a média de dado 50 notas. Nesse caso, uso de variáve
       }
       return 0;
     }
-
+```
 O compilador da linguagem C não verifica índices de vetores, tenha cuidado para não ocorrer invasão de memória. Pois isso pode levar a modificar outras variáveis do teu programa:
 
-
+```c
     int main () {
       int v[3];
       int a = 20;
@@ -77,10 +77,10 @@ O compilador da linguagem C não verifica índices de vetores, tenha cuidado par
       return 0;
     }
 
-
+```
 ## Relação entre vetores e ponteiros
 
-
+```c
     int main () {
       int v[3];
       int *p;
@@ -98,6 +98,7 @@ O compilador da linguagem C não verifica índices de vetores, tenha cuidado par
     
       return 0;
     }
+   ``` 
 ## Operadores de endereço e de acesso indireto
 
 Esses operadores são complementares:
@@ -106,7 +107,7 @@ Esses operadores são complementares:
 - O operador de endereço & é usado para retornar o endereço de uma dada variável
 - O operador de acesso indireto * é usado para retornar a variável em um dado endereço
 
-
+```c
     int main () {
       int a = 10;
       int b = 20;
@@ -120,7 +121,7 @@ Esses operadores são complementares:
       printf ("%d\n", *p);
       return 0;
     }
-
+```
 
 ## Simulando passagem por referência
 
@@ -128,7 +129,7 @@ Um exemplo de aplicação de ponteiros, é para simular passagem por referencia 
 
 Considere esse código para fazer a troca de valor de duas variáveis:
 
-
+```c
     int main () {
       int a = 10;
       int b = 20;
@@ -140,10 +141,10 @@ Considere esse código para fazer a troca de valor de duas variáveis:
       printf ("%d %d\n",a,b);
       return 0;
     }
-
+```
 Agora criaremos uma função para executar o algoritmo de troca, dado que ele é utilizado por diversos algoritmos:
 
-
+```c
     void troca (int* p, int* q) {
       int t = *p; // t = a
       *p = *q;  //a = b; 
@@ -158,10 +159,10 @@ Agora criaremos uma função para executar o algoritmo de troca, dado que ele é
       printf ("%d %d\n",a,b);
       return 0;
     }
-
+```
 Um exemplo de aplicação da função troca é no algoritmo de ordenação clássico, conhecido como bubble sort.
 
-
+```c
     void troca (int* p, int* q) { // bubble sort 
       int t = *p; // t = a
       *p = *q;  //a = b; 
@@ -189,13 +190,13 @@ Um exemplo de aplicação da função troca é no algoritmo de ordenação clás
       
       return 0;
     }
-
+```
 
 ----------
 ## Exercícios
 1. Considere o código abaixo:
 
-
+```c
     #include "stdio.h"
     
     
@@ -249,7 +250,7 @@ Um exemplo de aplicação da função troca é no algoritmo de ordenação clás
       
       return 0;
     }
-
+```
 Reescrevam o código abaixo criando as seguintes funções:
 
 
@@ -261,7 +262,7 @@ Reescrevam o código abaixo criando as seguintes funções:
 
 RESPOSTA:
 
-
+```c
     #include "stdio.h"
     
     void leValores (float v[], int n) {
@@ -331,17 +332,17 @@ RESPOSTA:
       
       return 0;
     }
-
+```
 
 2. Considere o código abaixo:
 
-
+```c
       int iVar = 15;
       int jVar,*pPont,*qPont;
       pPont = &iVar;
       jVar = 2 * (*pPont);
       qPont = 2 + (pPont);
-
+```
 
 3. Supõe-se que as posições (endereços) de memória ocupadas pelas variáveis iVar, jVar, pPont e qPont sejam respectivamente 1080, 1082, 1084 e 1086. Responda:
 - Na Linha 3, qual será o valor que a pPont assume?
@@ -370,12 +371,14 @@ RESPOSTA:
     4. printf(“%d”, *(p+1));
     
 1. Qual será a saída deste programa, supondo que i ocupa o endereço 4094 na memória?
+```c
     #include <stdio.h>
     int main(){
        int i=5, *p;
        p = &i;
        printf(“%p - %d - %d\n”, p, *p+2, 3*(*p));
     }
+    ```
 8. Fazer um programa que altere o valor armazenado em uma variável através do ponteiro que aponta para a mesma, seguindo as seguintes premissas:
 - A variável numero (tipo inteiro) irá armazenar o valor 35;
 - O ponteiro se chama ptr;
@@ -385,7 +388,7 @@ RESPOSTA:
  
 8-  Seja a seguinte seqüência de instruções em um programa C:    
 
-
+```c
     int *pti;
     int i = 10;
     pti = &i;
@@ -407,12 +410,12 @@ RESPOSTA:
                         e.         i = (*pi)+++*pj;
                        
 10- Na seqüência de instruções abaixo:    
-
+```c
     float f;
     float *pf;
     pf = &f;
     scanf("%f", pf);
-
+```
  
                                     a.         Efetuamos a leitura de f
                                     b.         Não efetuamos a leitura de f
@@ -421,7 +424,7 @@ RESPOSTA:
                                     e.         Nenhuma das opções anteriores
  
 11. Verifique o programa abaixo. Encontre o seu erro e corrija­-o para que escreva o numero 10 na tela.
-
+```c
     #include <stdio.h> 
     int main()
     {
@@ -432,7 +435,7 @@ RESPOSTA:
     printf("\n%d\n", &q); 
     return(0);
     }
-
+```
 
  
  
