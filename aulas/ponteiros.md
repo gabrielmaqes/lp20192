@@ -416,11 +416,11 @@ e.         i = (*pi)+++*pj;
     scanf("%f", pf);
 ```
  
-a.         Efetuamos a leitura de f
-b.         Não efetuamos a leitura de f
-c.         Temos um erro de sintaxe
-d.         Deveríamos estar usando &pf no scanf
-e.         Nenhuma das opções anteriores
+    a -         Efetuamos a leitura de f
+    b -        Não efetuamos a leitura de f
+    c -        Temos um erro de sintaxe
+    d -        Deveríamos estar usando &pf no scanf
+    e -        Nenhuma das opções anteriores
  
 11. Verifique o programa abaixo. Encontre o seu erro e corrija­-o para que escreva o numero 10 na tela.
 ```c
