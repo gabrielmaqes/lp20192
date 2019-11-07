@@ -264,7 +264,6 @@ Reescrevam o código acima criando as seguintes funções:
 - Dado um vetor de notas, retorne o menor valor
 - Dado um vetor de notas e um limiar, retorne o quantidade de valores acima do limiar
 
-RESPOSTA:
 
 
 2. Considere o código abaixo:
