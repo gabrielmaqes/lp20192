@@ -255,7 +255,7 @@ Um exemplo de aplicação da função troca é no algoritmo de ordenação clás
       return 0;
     }
 ```
-Reescrevam o código abaixo criando as seguintes funções:
+Reescrevam o código acima criando as seguintes funções:
 
 
 - Lê n notas dada
@@ -266,77 +266,6 @@ Reescrevam o código abaixo criando as seguintes funções:
 
 RESPOSTA:
 
-```c
-    #include "stdio.h"
-    
-    void leValores (float v[], int n) {
-      // lendo notas
-      for (int i=0; i < n; i++) {
-        scanf ("%f",&v[i]);
-      }
-    }
-    
-    float calculaMedia (float v[], int n) {
-      // calcula a média
-      float soma = 0;
-      for (int i=0; i < n; i++) {
-        soma = soma + v[i];
-      }
-      return soma / n;
-    }
-    
-    float maior (float v[], int n) {
-      //calcula maior nota
-      float maior = v[0];
-      for (int i=1; i < n; i++) {
-        if (v[i] > maior)
-          maior = v[i];
-      }
-      return maior;
-    }
-    
-    float menor (float v[], int n) {
-       //calcula menor nota
-      float menor = v[0];
-      for (int i=1; i < n; i++) {
-        if (v[i] < menor)
-          menor = v[i];
-      }
-     return menor; 
-    }
-    
-    int quantValoresMenorQue (float v[], int n, float limiar) {
-      int conta = 0;
-      for (int i=0; i < n; i++) {
-        if (v[i] > limiar)
-          conta++;
-      }
-      return conta;
-    }
-    
-    int main(void) {
-      
-      int qtAlunos;
-      
-      printf ("entre com a quantidade de alunos:");
-      scanf ("%d",&qtAlunos);
-      float notas[qtAlunos];
-      leValores (notas, qtAlunos);
-      float limiar;
-      printf ("Entre com uma nota limiar:");
-      scanf ("%f",&limiar);
-     
-       // imprime estatistica
-      printf ("Média: %f\n", calculaMedia (notas, qtAlunos));
-      printf ("Maior nota: %f\n", maior (notas, qtAlunos));
-      printf ("Menor nota: %f\n", menor (notas, qtAlunos));
-      printf ("Foram %d maiores que %f \n"
-                , quantValoresMenorQue(notas, qtAlunos, limiar)
-                  ,limiar);
-      
-      return 0;
-    }
-```
 
 2. Considere o código abaixo:
 
